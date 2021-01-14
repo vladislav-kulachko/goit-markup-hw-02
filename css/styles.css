@@ -1,0 +1,45 @@
+:root {
+  --primary-black-color: #212121;
+  --secondary-black-color: #757577;
+  --button-color: #f5f4fa;
+  --blue-color: #2196f3;
+  --white-color: #ffffff;
+  --footer-adress-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  color: var(--primary-black-color);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  background-color: var(--white-color);
+}
+a,
+ul {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+.logo-head {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-front {
+  color: var(--blue-color);
+}
+.logo-foot {
+  color: var(--white-color);
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
