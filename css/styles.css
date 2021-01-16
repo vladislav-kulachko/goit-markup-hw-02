@@ -102,14 +102,24 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.staff {
+.staff-card {
+  background: var(--white-color);
+  box-shadow: 
+  0px 1px 3px rgba(0, 0, 0, 0.12),
+  0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.staff-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.185;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 .staff-function {
+  font-size: 16px;
+  line-height: 1.185;
+  letter-spacing: 0.03em;
   font-weight: 400;
   color: var(--secondary-black-color);
 }
@@ -153,6 +163,11 @@ ul {
 .button-action:hover {
   color: var(--white-color); 
   background-color: var(--blue-color);
+}
+.project-view{ 
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
 }
 .project-name {
   font-weight: 700;
