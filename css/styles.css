@@ -7,9 +7,9 @@
   --footer-adress-color: rgba(255, 255, 255, 0.6);
 }
 body {
-  color: var(--primary-black-color);
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  color: var(--primary-black-color);
   background-color: var(--white-color);
 }
 a,
@@ -20,23 +20,23 @@ ul {
 }
 
 .logo-head {
-  color: #000000;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
+  color: #000000;
 }
 .logo-left {
   color: var(--blue-color);
 }
 .logo-foot {
-  color: var(--white-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
+  color: var(--white-color);
 }
 .header {
   font-weight: 500;
@@ -65,10 +65,11 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
-  text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   color: var(--white-color);
+  text-align: center;
+  text-transform: uppercase;
+  
 }
 .order-service-button {
   font-family: inherit;
@@ -79,8 +80,9 @@ ul {
   letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--blue-color);
-  border-radius: 4px;
   border: 0px;
+  border-radius: 4px;
+  
 }
 .advantage-header {
   font-weight: 700;
@@ -160,7 +162,8 @@ ul {
   border: 0px;
 }
 .button-action:focus,
-.button-action:hover {
+.button-action:hover,
+.button:active {
   color: var(--white-color); 
   background-color: var(--blue-color);
 }
