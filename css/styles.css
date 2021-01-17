@@ -44,18 +44,18 @@ ul {
   line-height: 1.143;
   letter-spacing: 0.02em;
 }
-.header .nav-list-link:hover,
-.header .nav-list-link:focus,
-.header .header-mail-link:hover,
-.header .header-mail-link:focus,
-.header .header-phone-link:hover,
-.header .header-phone-link:focus {
+.nav-list-link:hover,
+.nav-list-link:focus,
+.header-mail-link:hover,
+.header-mail-link:focus,
+.header-phone-link:hover,
+.header-phone-link:focus {
   color: var(--blue-color);
 }
-.header .header-phone-link {
+.header-phone-link {
   color: var(--secondary-black-color);
 }
-.header .header-mail-link {
+.header-mail-link {
   color: var(--secondary-black-color);
 }
 .order-service {
